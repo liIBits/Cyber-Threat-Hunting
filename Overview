@@ -1,0 +1,11 @@
+Every organization can go about threat hunting in their own way, but generally there are key components that are covered.
+
+1. Threat Hunt Planning
+2. Baselining
+3. Threat Hunt
+4. Hardening Recommendation - Risk Mitigation Report
+5. Lessons Learned
+
+The list above generalizes what I have learned as I have gone to different types of networks. 
+
+1. The threat hunt planning phase consists of 
