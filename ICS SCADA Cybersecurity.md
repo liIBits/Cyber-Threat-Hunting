@@ -62,7 +62,7 @@
     -   Fire suppression and alarm systems
     -   Access control systems
 
-**Modbus Protocol Types:**
+# **Modbus Protocol Types:**
 
 **Modbus RTU:**
 
