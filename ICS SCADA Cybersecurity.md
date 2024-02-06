@@ -37,7 +37,7 @@
 -   Configured in a master/slave configuration
     -   The control center would be the SCADA master
     -   Substation would have the remote terminal units (RTUs) inside it
--   Designed to traversea variety of mediums
+    -   Designed to traversea variety of mediums
     -   Microwave
     -   Spread-spectrum wireless
     -   Dial-up lines
