@@ -1,6 +1,5 @@
-# ICS / SCADA Cybersecurity
 
-**Protocols:**
+# **Protocols:**
 
 **Modbus**: TCP port 502
 
