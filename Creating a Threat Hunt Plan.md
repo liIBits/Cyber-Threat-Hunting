@@ -34,6 +34,7 @@ Utilizing the threat intelligence, comprehensive TTPs can now be used to hunt on
 
 ## General Hunt Tasks 
 | Task # | Technique Used | T-Code | CyberKill Chain Phase | Tasks / Information | Detection Method / Notes | Host / Network | Analyst Assigned | Status (In Progress / Complete / Pending RFI) | Created by |
+| ------ | -------------- | ------ | --------------------- | ------------------- | ------------------------ | -------------- | ---------------- | --------------------------------------------- | ---------- |
 
 In the "Tasks / Information" section,
 1. Basic information
