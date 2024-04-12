@@ -2,8 +2,7 @@
 Structured threat hunts are centered on a hypothesis such as intelligence driven threat hunts. Unstructured threat hunts are catered towards statistics and looking for what’s normal or not normal on the network.
 
 # Threat Hunting Lifecycle
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fipwithease.com%2Fthreat-hunting%2F&psig=AOvVaw1YK15BCl5U255S8gPWBwSX&ust=1713031582300000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICz3I-jvYUDFQAAAAAdAAAAABAE)
-
+![image](https://github.com/liIBits/Cyber-Threat-Hunting/assets/74343198/59f5ae11-4f6f-46d8-91d0-0890c2418fdd)
 
 # Threat Hunting Techniques
 ## Volume Analysis
