@@ -5,7 +5,7 @@ Structured threat hunts are centered on a hypothesis such as intelligence driven
 # Threat Hunting Techniques
 ## Volume Analysis
 Looks at the volume of a particular activity in relation to other activities. 
-- Often though in terms of Network traffic
+- Often thought in terms of Network traffic
 - can be applied more broadly to activity on a system
 - Number of processes with unusual paths
 - Number of particular users’ activity across an environment
