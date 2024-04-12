@@ -1,5 +1,3 @@
-Quick Guide to Threat Hunting
-
 # Structure and Unstructured Threat Hunts
 Structured threat hunts are centered on a hypothesis such as intelligence driven threat hunts. Unstructured threat hunts are catered towards statistics and looking for what’s normal or not normal on the network.
 # Threat Hunting Techniques
