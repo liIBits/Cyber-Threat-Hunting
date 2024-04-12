@@ -11,4 +11,4 @@ Prerequisites: ACTIVATED version of Excel 2016
 9. Check rules by running suricata -c /etc/suricata/suricata.yaml -i em1 (em1 is the sensor interface used in every dmss multi node build)
 
 
-==May have to change permissions on fast.log and eve.json to -rw-rw-rw- (666)==
+== May have to change permissions on fast.log and eve.json to -rw-rw-rw- (666) ==
