@@ -1,4 +1,4 @@
-Add-Type -AssemblyName System.Windows.Forms
+`Add-Type -AssemblyName System.Windows.Forms
 $fileBrowser = New-Object System.Windows.Forms.OpenFileDialog -Property @{ 
     InitialDirectory = [Environment]::GetFolderPath('Desktop') 
     Filter = 'SpreadSheet (*.xlsx)|*.xlsx'
@@ -72,4 +72,4 @@ Stop-Process -ID $Process_ID 2>$NULL;
 Add-Content SuricataRules.txt $suricataIP
 Add-Content SuricataRules.txt $suricataDomain
 Add-Content SuricataRules.txt $suricataURI
-Add-Content SuricataRules.txt $suricataURL
+Add-Content SuricataRules.txt $suricataURL`
