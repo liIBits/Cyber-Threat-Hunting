@@ -39,7 +39,7 @@ Utilizing the threat intelligence, comprehensive TTPs can now be used to hunt on
 In the "Tasks / Information" section,
 1. Basic information
 2. What devices are affected by this technique
-3. What monitoring tool(s) need to be used to find this on the network
+3. What monitoring tool(s) need to be used
 4. Task(s) to accomplish finding this techniqie
 5. Prevention Method(s)
 
