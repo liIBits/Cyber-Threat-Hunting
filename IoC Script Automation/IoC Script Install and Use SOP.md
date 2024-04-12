@@ -1,4 +1,4 @@
-#**WARNING: Save and close all Excel documents prior to running this script**
+# **WARNING: Save and close all Excel documents prior to running this script**
 Prerequisites: ACTIVATED version of Excel 2016
 1. Install Powershell 7, leave all options default (Click next through everything)
 2. Open Powershell 7-Preview (Can be found in the start menu under the powershell folder)
