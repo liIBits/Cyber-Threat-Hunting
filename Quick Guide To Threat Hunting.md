@@ -16,8 +16,8 @@ Examples:
 - Which endpoint sent the most data?
 - What external IP had the greatest number of blocked connections?
 - Which systems can the greatest number of blocked connections?
-Which systems have had the longest sessions?
-What systems have had the most AV alerts?
+- Which systems have had the longest sessions?
+- What systems have had the most AV alerts?
 ## Frequency Analysis
 Instead of volume, it examines the frequency of an occurrence.
 - Most often applied to network traffic at both the network and host levels
@@ -31,10 +31,12 @@ A method of statistical analysis.
 ## Grouping Analysis
 Is similar to clustering analysis, but instead of clustering based on an aggregate of carious characteristics, grouping seeks to group the data based on the occurrence of specific simultaneous conditions.
 - Can often reveal previously unknown tools or actor behavior
+
 Examples: 
-- ** Outbound network source **: this shows host that may be bypassing web content filtering
-- ** Domain Name servers **: this will reveal hosts that may be using non-standard DNS servers
+- **Outbound network source**: this shows host that may be bypassing web content filtering
+- **Domain Name servers**: this will reveal hosts that may be using non-standard DNS servers
 ## Stacking
 An analytical method which can be effectively used against finite data sets and involves aggregating and counting the number of times a condition is observed, with the intent of identifying statistical extremes in either direction
+
 Example: 
 - Looking at the directory that key windows files are observed in. This can identify binaries masquerading.
