@@ -32,7 +32,7 @@ Incorporate a Baseline section in the threat hunt so the analysts can spend time
 # Create a Hunt Plan
 Utilizing the threat intelligence, comprehensive TTPs can now be used to hunt on the network. When creating the threat hunt, ensure to antipate anything and everything the APT has been known to do.
 
-| General Hunt Tasks | 
+## General Hunt Tasks 
 | Task # | Technique Used | T-Code | CyberKill Chain Phase | Tasks / Information | Detection Method / Notes | Host / Network | Analyst Assigned | Status (In Progress / Complete / Pending RFI) | Created by |
 
 In the "Tasks / Information" section,
