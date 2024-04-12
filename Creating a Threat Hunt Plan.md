@@ -1,4 +1,11 @@
-I will provide information on intel-driven threat hunts since that is what I'm experience in.
+# Planning
+
+Before starting anything, conversing with the customer about how the threat hunt will be conducted is paramount. Some thing to discuss are: 
+1. Understanding the scope of the threat hunt and the intentions the customer has for us
+2. How are we going to tap into their network (we have our own sensor and SIEM we connect through a span port or inline tap)
+3. What tools does the customer already utilized to collect logs that we may utilize (Useful for obtaining host logs)
+
+Once their is a good idea of what to expect we can start creating our threat hunt operational plan (op )
 
 # Utilize Inteligence
 
@@ -23,4 +30,9 @@ Incorporate a Baseline section in the threat hunt so the analysts can spend time
 | scheduled tasks / cron jobs | host, scheduled task / cron job |
 
 # Create a Hunt Plan
+Utilizing the threat intelligence, comprehensive TTPs can now be used to hunt on the network. When creating the threat hunt, ensure to antipate anything and everything the APT has been known to do.
+
+| General Hunt Tasks | 
+| Task # | Technique Used | T-Code | CyberKill Chain Phase | Tasks / Information | Detection Method / Notes | Host / Network | Analyst Assigned | Status (In Progress / Complete / Pending RFI) | Created by |
+| | | | | Basic information, **Information**, Affected:, monitoring tool(s), Task(s), Prevention Method(s) | | | | | | 
 
