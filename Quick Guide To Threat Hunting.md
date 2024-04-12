@@ -4,7 +4,6 @@ Structured threat hunts are centered on a hypothesis such as intelligence driven
 # Threat Hunting Lifecycle
 ![image](https://github.com/liIBits/Cyber-Threat-Hunting/assets/74343198/52a769bc-44f1-4903-a921-49ee6b89b682)
 
-
 # Threat Hunting Techniques
 ## Volume Analysis
 Looks at the volume of a particular activity in relation to other activities. 
