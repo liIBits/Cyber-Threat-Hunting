@@ -10,7 +10,7 @@ Looks at the volume of a particular activity in relation to other activities.
 - Number of processes with unusual paths
 - Number of particular users’ activity across an environment
 - Any other aspect that can be sufficiently measured and visualized
-**Examples:**
+Examples:
 - How much data did endpoints send of the network?
 - Which endpoint sent the most data?
 - What external IP had the greatest number of blocked connections?
