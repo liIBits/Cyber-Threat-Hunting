@@ -1,4 +1,4 @@
-# Threat Hunting Cycle
+# Threat Hunting Procedure
 
 Planning -> Gather Inteligence -> Create the Baseline and Hunt Plan -> Conduct the Threat Hunt -> Provide Risk Mitigation Report (RMP) to Customer
 
