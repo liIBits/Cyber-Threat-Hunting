@@ -1,3 +1,7 @@
+# Threat Hunting Cycle
+
+Planning -> Gather Inteligence -> Create the Baseline and Hunt Plan -> Conduct the Threat Hunt -> Provide Risk Mitigation Report (RMP) to Customer
+
 # Planning
 
 Before starting anything, conversing with the customer about how the threat hunt will be conducted is paramount. Some thing to discuss are: 
@@ -16,6 +20,13 @@ Discern what type of network the threat hunt will occur on (Hybrid, Cloud, ICS/S
 
 Example: MITRE is a great open-source platform that provides Intelligence, IoCs, and matrices for Enterprise, Mobile and ICS environments, showcasing tactics and techniques for each type of environment.
 
+# Hunt Plan
+
+The hunt plan typically consists of a baseline phase and a threat hunt phase. The hardening recommendations can be found throughout the threat hunt to help the customer harden their network.
+| Baseline phase | Hunt Phase | Hardening Recommendations |
+| -------------- | ----------- |
+| whats normal | find the bad guys | what can be improved on the network |
+
 # Create a Baseline plan
 Incorporate a Baseline section in the threat hunt so the analysts can spend time familiarizing themselves with the network. How much time spent on baselining is indicitive to the network. For one month threat hunts, we try to spend at most two weeks baselining the network. This can be best accomplished by using a SIEM that the customer is already using to ingest host or network logs or your own SIEM if you are connecting your own sensor to the network.
 
@@ -30,9 +41,9 @@ Incorporate a Baseline section in the threat hunt so the analysts can spend time
 | scheduled tasks / cron jobs | host, scheduled task / cron job |
 
 # Create a Hunt Plan
-Utilizing the threat intelligence, comprehensive TTPs can now be used to hunt on the network. When creating the threat hunt, ensure to antipate anything and everything the APT has been known to do.
+Utilizing the threat intelligence, comprehensive TTPs can now be used to hunt on the network. When creating the threat hunt, ensure to antipate anything and everything the APT has been known to do. Each threat hunt task can be created using the following format:
 
-## General Hunt Tasks 
+## General Hunt Task Format
 | Task # | Technique Used | T-Code | CyberKill Chain Phase | Tasks / Information | Detection Method / Notes | Host / Network | Analyst Assigned | Status (In Progress / Complete / Pending RFI) | Created by |
 | ------ | -------------- | ------ | --------------------- | ------------------- | ------------------------ | -------------- | ---------------- | --------------------------------------------- | ---------- |
 
@@ -43,5 +54,11 @@ In the "Tasks / Information" section,
 4. Task(s) to accomplish finding this techniqie
 5. Prevention Method(s)
 
+# Hardening Recommendation
+Throughout the threat hunt, analysts may find vulnerabilities that were unknown to the customer. Providing a section in the threat hunt plan for the analysts to annotate any hardening recommendation they would like to pass onto the customer is a great way to accumulate a great Risk Mitigation Plan (RMP).
+This section could look like this:
+## Vulnerabilities & Recommendations
+| Vulnerability | Affected Machines | Risk Factor | Mitigation |
+| ------------- | ----------------- | ----------- | ---------- |
 
 
