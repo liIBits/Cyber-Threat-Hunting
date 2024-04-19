@@ -24,7 +24,7 @@ Example: MITRE is a great open-source platform that provides Intelligence, IoCs,
 
 The hunt plan typically consists of a baseline phase and a threat hunt phase. The hardening recommendations can be found throughout the threat hunt to help the customer harden their network.
 | Baseline phase | Hunt Phase | Hardening Recommendations |
-| -------------- | ----------- |
+| -------------- | ----------- | ------------------------ |
 | whats normal | find the bad guys | what can be improved on the network |
 
 # Create a Baseline plan
